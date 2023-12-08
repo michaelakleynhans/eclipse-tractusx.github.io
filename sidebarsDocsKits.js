@@ -544,7 +544,11 @@ const sidebars = {
             },
             items: [
                 'kits/Resiliency/maas',
-                'kits/Resiliency/PURIS',
+                {
+                    type: 'doc',
+                    label: 'PURIS Kit',
+                    id: 'kits/PURIS Kit/Adoption View PURIS Kit',
+                },
                 'kits/Resiliency/mp kit',
             ]
         }, {
