@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eclipse-tractusx.github.io/community/meeting-minutes</id>
     <title>Eclipse Tractus-X Blog</title>
-    <updated>2024-10-18T00:00:00.000Z</updated>
+    <updated>2024-11-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eclipse-tractusx.github.io/community/meeting-minutes"/>
     <subtitle>Eclipse Tractus-X Blog</subtitle>
     <icon>https://eclipse-tractusx.github.io/img/logo_tractus-x-min.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Community Office Hour 2024-11-08]]></title>
+        <id>community-office-hour-2024-11-08</id>
+        <link href="https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-11-08"/>
+        <updated>2024-11-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Office Hour meeting minutes]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>Test Environments:<ul><li>STABLE environment24.12 installations in early december</li><li>Test Management: Reference Quality Gate Checks and walkthrough them in "Test Management"</li><li>Resolved Issue with SAP DIV -&gt; Onboarding should work now</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="release-management">Release Management<a class="hash-link" href="#release-management" title="Direct link to heading">​</a></h3><ul><li>Reminders<ul><li>use TX EDC 0.8.0 RC5 -&gt; RC6 is on its way -&gt; Rediscuss in testmanagement daily during next week<ul><li>we should improve test automation -&gt; the umbrella helm chart targets to support that</li></ul></li><li>reminder for open planning</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security">Security<a class="hash-link" href="#security" title="Direct link to heading">​</a></h3><ul><li>GitGuardian will be removed soon.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li><a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/pull/1045" target="_blank" rel="noopener noreferrer">TRG 7.09</a></li><li>discuss how to document releases between ecosystem releases and deployment experiences -&gt; ongoing / announcement</li><li>TRG about testing will come up</li><li>Mano's election ended. Reminders<ul><li>small amount of participations</li><li>points that would have been great: participation in community &amp; handling of TRGs etc.</li></ul></li><li>ClearlyDefined is down: revisit on next week and then ask via IP matrix check</li><li>MDX files in KITs: only if needed, is CC-BY-4.0</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="communityopen-planning">Community/Open Planning<a class="hash-link" href="#communityopen-planning" title="Direct link to heading">​</a></h3><ul><li>remove the .cal file and just state the time (in an international time format)</li></ul>]]></content>
+        <author>
+            <name>Tom Meyer</name>
+            <uri>https://github.com/tom-rm-meyer-ISST</uri>
+        </author>
+        <category label="community" term="community"/>
+        <category label="meeting-minutes" term="meeting-minutes"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Community Office Hour 2024-10-18]]></title>
         <id>community-office-hour-2024-10-18</id>
@@ -17,6 +31,20 @@
         <author>
             <name>Lars Geyer-Blaumeiser</name>
             <uri>https://github.com/lgblaumeiser</uri>
+        </author>
+        <category label="community" term="community"/>
+        <category label="meeting-minutes" term="meeting-minutes"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Community Office Hour 2024-10-11]]></title>
+        <id>community-office-hour-2024-10-11</id>
+        <link href="https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-10-11"/>
+        <updated>2024-10-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Office Hour meeting minutes]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li><a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io" target="_blank" rel="noopener noreferrer">eclipse-tractusx/eclipse-tractusx.github.io</a> requires just One Committer Review now<ul><li>Committers that approve: Please double-check the content, remember you have also responsibility when approving non TRG compliant content</li><li>Expectation for KITs: It should be less stressful to find a committer</li></ul></li><li>Setup Catena-X STABLE Environment<ul><li>Organizational issue that’s why the stable is not there right now but they are working on it</li><li>Questions: Will the STABLE environment stick to the released version or will it evolve with the development of the components?</li></ul></li><li>Planned general infrastructure maintenance INT environment 2024-09-29<ul><li>24.12 e2e test phase on INT environment still planned to start 25.10. as communicated in adapted timeline</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="release-management">Release Management<a class="hash-link" href="#release-management" title="Direct link to heading">​</a></h3><ul><li>EDC 0.8.0 to be used during e2e testing.<ul><li>The upcoming Eclipse Tractus-X 24.12 release will include EDC version 0.8.0.</li><li>If your component relies on the Eclipse DataspaceConnector (EDC), we highly encourage you to align your development and testing efforts with this version to ensure compatibility.</li></ul></li><li>Reminder for Refinement Day 1: 16.10<ul><li>Each group will focus on the first steps of skeleton-building for their features, based on the feature template, mapping them to the related roadmap items<ul><li>For more information please read the <a href="https://eclipse-tractusx.github.io/blog/refinement-day-1-R25.03" target="_blank" rel="noopener noreferrer">news blog</a></li></ul></li></ul></li><li>Reminder for Refinement Day 2: 06.11<ul><li>Build on the work from Refinement Day 1 and focus primarily on the identified dependencies<ul><li>For more information, please read the <a href="https://eclipse-tractusx.github.io/blog/refinement-day-2-R25.03" target="_blank" rel="noopener noreferrer">news blog</a></li></ul></li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security">Security<a class="hash-link" href="#security" title="Direct link to heading">​</a></h3><ul><li>[Trufflehog Update]<!-- --> Deprecation of GitGuardian and mandatory update to Trufflehog<ul><li>Please update your repositories</li><li>There are still many issues opened and waiting to be resolved by their responsible committer<ul><li><a href="https://github.com/eclipse-tractusx/sig-security/issues/86" target="_blank" rel="noopener noreferrer">Parent Issue</a></li></ul></li><li>The Trufflehog Workflow is a active <a href="https://eclipse-tractusx.github.io/docs/release/trg-8/trg-8-03/" target="_blank" rel="noopener noreferrer">TRG</a> since March 26,2024</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li>TRG proposal for product deprecation including a process and criteria to close <a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/issues/1037" target="_blank" rel="noopener noreferrer">Issue #1037</a></li><li>Please review and  provide some input</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback--question--request">Feedback / Question / Request<a class="hash-link" href="#feedback--question--request" title="Direct link to heading">​</a></h3><ul><li>Add Testmanagement timeline into timeline of the overall release</li></ul>]]></content>
+        <author>
+            <name>Theresa Hilger</name>
+            <uri>https://github.com/ther3sa</uri>
         </author>
         <category label="community" term="community"/>
         <category label="meeting-minutes" term="meeting-minutes"/>
